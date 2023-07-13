@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @RequestMapping("/get")
     public String get() {
-        return "Hello";
+        return "Hello update";
     }
 }
